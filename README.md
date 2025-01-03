@@ -19,3 +19,5 @@ z: 0.0"
 colcon build --symlink-install --packages-select nav2_costmap_2d
 . install/setup.bash
 ```
+5. Plugin inspired from [Keepout Filter](https://docs.nav2.org/tutorials/docs/navigation2_with_keepout_filter.html) and [Gradient Layer plugin](https://docs.nav2.org/plugin_tutorials/docs/writing_new_costmap2d_plugin.html).
+6.  Add Obstacle Layer implementation can be found here: [header file](https://github.com/Gaurav-Kapoor-07/navigation2/blob/humble-costmap-update/nav2_costmap_2d/include/nav2_costmap_2d/add_obstacle_layer.hpp) and [source file](https://github.com/Gaurav-Kapoor-07/navigation2/blob/humble-costmap-update/nav2_costmap_2d/plugins/add_obstacle_layer.cpp).
